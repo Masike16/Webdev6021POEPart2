@@ -1,17 +1,17 @@
 # Pastimes Second-Hand Fashion Store
 
-A complete PHP/MySQL e-commerce website for buying and selling second-hand clothing, built as a Web Development POE assignment.
+A website for buying and selling second-hand clothing, built as for the Web Development POE assignment creayed by students ST10451774(Acazia) & ST10452404(Masike).
 
-## 🎯 Project Overview
+## The Project Overview
 
-Pastimes is a modern e-commerce platform inspired by Vinted and Depop, designed to facilitate the buying and selling of pre-loved fashion items. The system features role-based access control, secure transactions, and a user-friendly interface.
+Pastimes is a modern e-commerce platform inspired by the websites we did research on (Vinted and Depop), the websites is designed to facilitate the buying and selling of pre-loved fashion items. The system features role-based access control, secure transactions, and a user-friendly interface.
 
-## 🚀 Features
+## Features of the website
 
 ### User Management
 - **Registration System**: Secure user registration with email validation
-- **Role-Based Access**: Buyer, Seller, and Admin roles with appropriate permissions
-- **Admin Verification**: Admin must verify new users before they can access the system
+- **Role-Based Access**: Buyer, Seller, and Admin roles with appropriate permissions based on their roles
+- **Admin Verification**: Admin must verify new users (sellers and buyers) before they can access the system
 - **Session Security**: Secure session management with regeneration
 
 ### Shopping Features
@@ -25,7 +25,7 @@ Pastimes is a modern e-commerce platform inspired by Vinted and Depop, designed 
 - **Product Management**: Add, edit, and delete product listings
 - **Image Upload**: Secure file upload with validation
 - **Sales Tracking**: Revenue statistics and inventory management
-- **Order Management**: View and manage incoming orders
+- **Order Management**: Ability to View and manage incoming orders
 
 ### Admin Features
 - **User Management**: Verify, delete, and manage users
@@ -46,7 +46,7 @@ Pastimes is a modern e-commerce platform inspired by Vinted and Depop, designed 
 - **Security**: Password hashing, SQL injection prevention, session security
 - **Design**: Responsive, mobile-first design with modern UI/UX
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 WebdevpastimesV4/
@@ -90,7 +90,7 @@ WebdevpastimesV4/
 
 ## 🚀 Setup Instructions
 
-### Prerequisites
+### Prerequisites for operating the website
 - PHP 8.0 or higher
 - MySQL 5.7 or higher
 - WAMP/XAMP/MAMP server environment
@@ -100,13 +100,13 @@ WebdevpastimesV4/
 
 1. **Clone/Download the Project**
    ```bash
-   # Extract to your web server directory
+   # Extract the folder to your web server directory
    # For WAMP: C:\wamp64\www\WebdevpastimesV4\
    ```
 
 2. **Database Setup**
    - Open your browser and navigate to: `http://localhost/WebdevpastimesV4/loadClothingStore.php`
-   - This will automatically create the database and populate it with sample data
+   - This will automatically create the database and populate it with the sample data
 
 3. **Verify Installation**
    - Navigate to: `http://localhost/WebdevpastimesV4/`
@@ -140,7 +140,7 @@ WebdevpastimesV4/
 - Professional form styling
 - Interactive elements with feedback
 
-## 🔒 Security Features
+## Security Features
 
 - **SQL Injection Prevention**: All queries use prepared statements
 - **Password Security**: Hashing with PHP's password_hash() function
@@ -149,7 +149,7 @@ WebdevpastimesV4/
 - **File Upload Security**: Type and size validation for images
 - **Role-Based Access**: Proper permission checking throughout
 
-## 📚 References
+## References
 
 This project incorporates design patterns and features inspired by:
 
@@ -158,20 +158,20 @@ This project incorporates design patterns and features inspired by:
 - **PHP.net (2022)** - Security best practices and implementation patterns
 - **W3Schools (2021)** - Technical implementation guidance
 
-## 👥 Student Information
+## Student Information
 
 **Student Numbers**: ST10451774 & ST10452404  
 **Names**: Acazia Ammon & Masike Jr Rasenyalo  
 **Declaration**: This code is our own work except where referenced
 
-## 🎯 Assignment Requirements Met
+## Assignment Requirements Met
 
-### Part 1 Requirements ✅
+### Part 1 Requirements
 - Research and planning documentation
 - ERD diagrams and database design
 - User interface mockups and sitemaps
 
-### Part 2 Requirements ✅
+### Part 2 Requirements
 - Complete functional prototype
 - All CRUD operations implemented
 - User authentication and authorization
@@ -179,7 +179,7 @@ This project incorporates design patterns and features inspired by:
 - Admin verification system
 - Messaging functionality
 
-### Additional Features ✅
+### Additional Features
 - Responsive mobile-friendly design
 - Professional UI/UX
 - Security best practices
@@ -187,7 +187,7 @@ This project incorporates design patterns and features inspired by:
 - File upload capabilities
 - Database-based cart system
 
-## 🧪 Testing
+## Testing
 
 ### Test Scenarios
 1. **User Registration**: Test all validation rules
@@ -204,7 +204,7 @@ This project incorporates design patterns and features inspired by:
 - Safari 14+
 - Edge 90+
 
-## 📱 Mobile Features
+## Mobile Features
 
 - Touch-friendly interface
 - Responsive navigation
@@ -212,7 +212,7 @@ This project incorporates design patterns and features inspired by:
 - Mobile-optimized product grid
 - Swipe-friendly image galleries
 
-## 🚀 Performance Optimizations
+## Performance Optimizations
 
 - Efficient database queries
 - Image optimization
@@ -220,7 +220,7 @@ This project incorporates design patterns and features inspired by:
 - CSS optimization
 - Proper caching headers
 
-## 🔧 Maintenance
+## Maintenance
 
 ### Regular Tasks
 - Database backups
@@ -234,7 +234,7 @@ This project incorporates design patterns and features inspired by:
 - Ensure proper PHP configuration
 - Monitor server resources
 
-## 📞 Support
+## Support
 
 For technical support or questions about this project:
 - **Email**: support@pastimes.com
