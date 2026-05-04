@@ -3,10 +3,10 @@
  * User Table Creation Script for Pastimes Clothing Store
  * Student Numbers: ST10451774 & ST10452404
  * Names: Acazia Ammon & Masike Jr Rasenyalo
- * Declaration: This code is our own work except where referenced
+ * Declaration: This  code is our own work except where referenced
  * 
- * Creates and loads tblUser table from userData.txt
- * Following W3Schools (2021) database creation patterns
+ * Creates and loads the sample tblUser table from userData.txt
+ * Following the W3Schools (2021) database creation patterns
  */
 
 require_once 'DBConn.php';
@@ -29,6 +29,7 @@ if ($checkTable->num_rows > 0) {
 }
 
 // Create tblUser table
+// Table structure inspired by W3Schools (2021) user management examples
 $sql = "CREATE TABLE tblUser (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(100) NOT NULL,

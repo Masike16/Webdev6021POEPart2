@@ -1,10 +1,8 @@
 <?php
 /**
  * Homepage for Pastimes Clothing Store
- * Student Numbers: ST10451774 & ST10452404
- * Names: Acazia Ammon & Masike Jr Rasenyalo
+ * Student Numbers: ST10451774 Acazia Ammon & ST10452404Masike Jr Rasenyalo
  * Declaration: This code is our own work except where referenced
- * 
  * Main landing page with featured products and hero section
  * Homepage layout inspired by Vinted (2023) clean design
  * Featured products grid influenced by Depop (2023) browsing experience
@@ -118,6 +116,7 @@ unset($_SESSION['cart_error']);
         </section>
 
         <!-- Messages -->
+         <!-- Display the success or error messages from cart operations -->
         <?php if ($success_message): ?>
             <div class="alert alert-success">
                 <?php echo htmlspecialchars($success_message); ?>

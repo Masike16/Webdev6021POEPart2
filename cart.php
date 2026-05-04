@@ -5,9 +5,7 @@
  * Names: Acazia Ammon & Masike Jr Rasenyalo
  * Declaration: This code is our own work except where referenced
  * 
- * Database-based shopping cart system with user isolation
- * Cart functionality inspired by Vinted (2023) shopping experience
- * User-specific cart management influenced by Depop (2023) cart system
+ * 
  */
 
 session_start();
@@ -108,6 +106,9 @@ if (!empty($cart_items)) {
     }
 }
 ?>
+<!--Database-based shopping cart system with  the user isolation
+  Cart functionality inspired by Vinted (2023) shopping experience
+  User-specific cart management influenced by Depop (2023) cart system -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

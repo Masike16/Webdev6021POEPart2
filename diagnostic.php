@@ -3,7 +3,6 @@
  * Diagnostic Page for Pastimes Clothing Store
  * Student Numbers: ST10451774 & ST10452404
  * Names: Acazia Ammon & Masike Jr Rasenyalo
- * Declaration: This code is our own work except where referenced
  */
 
 echo "<h2>Pastimes Store - Diagnostic Tool</h2>";

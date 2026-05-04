@@ -5,8 +5,7 @@
  * Names: Acazia Ammon & Masike Jr Rasenyalo
  * Declaration: This code is our own work except where referenced
  * 
- * Creates all database tables with sample data
- * Following W3Schools (2021) database creation patterns
+ * Creates all database tables with sample data for testing and development
  * Inspired by Depop (2023) and Vinted (2023) e-commerce structures
  */
 
@@ -35,6 +34,7 @@ foreach ($tables as $table) {
 }
 
 // Create tblUser table
+// Table structure inspired by W3Schools (2021) user management examples
 $sql = "CREATE TABLE tblUser (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(100) NOT NULL,
