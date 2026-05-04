@@ -49,7 +49,7 @@ Pastimes is a modern e-commerce platform inspired by Vinted and Depop, designed 
 ## 📁 Project Structure
 
 ```
-WebdevpastimesV4/
+Webdev6021POEPart2-main/
 ├── 📄 index.php                 # Homepage with featured products
 ├── 📄 register.php              # User registration form
 ├── 📄 login.php                 # User login
@@ -74,7 +74,10 @@ WebdevpastimesV4/
 │   └── 📄 script.js              # Form validation and interactions
 ├── 📁 images/                   # Product images
 ├── 📁 uploads/                  # User upload directory
-└── 📄 README.md                 # This file
+├── 📄 README.md                 # This file
+├── 📄 diagnostic.php            # Database diagnostic tool
+├── 📄 test_db.php               # Database connection test
+└── 📄 myClothingStore.sql      # Complete SQL export
 ```
 
 ## 🗄️ Database Schema
@@ -100,16 +103,17 @@ WebdevpastimesV4/
 
 1. **Clone/Download the Project**
    ```bash
+   # Download from GitHub: Webdev6021POEPart2
    # Extract to your web server directory
-   # For WAMP: C:\wamp64\www\WebdevpastimesV4\
+   # For WAMP: C:\wamp64\www\Webdev6021POEPart2-main\
    ```
 
 2. **Database Setup**
-   - Open your browser and navigate to: `http://localhost/WebdevpastimesV4/loadClothingStore.php`
+   - Open your browser and navigate to: `http://localhost/Webdev6021POEPart2-main/loadClothingStore.php`
    - This will automatically create the database and populate it with sample data
 
 3. **Verify Installation**
-   - Navigate to: `http://localhost/WebdevpastimesV4/`
+   - Navigate to: `http://localhost/Webdev6021POEPart2-main/`
    - You should see the Pastimes homepage
 
 ### Default Login Credentials
