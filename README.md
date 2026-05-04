@@ -38,7 +38,7 @@ Pastimes is a modern e-commerce platform inspired by the websites we did researc
 - **Read/Unread Status**: Message tracking and notifications
 - **User Profiles**: Comprehensive user information and activity
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Backend**: PHP 8.0+ with MySQLi
 - **Database**: MySQL with secure prepared statements
@@ -84,11 +84,15 @@ Webdev6021POEPart2/
 │   └── 📄 script.js              # Form validation and interactions
 ├── 📁 images/                   # Product images and assets
 ├── 📁 uploads/                  # User upload directory
+<<<<<<< HEAD
 ├── 📄 README.md                 # This file
 └── 📄 .git/                     # Git version control
+=======
+└── 📄 README.md                 # This file
+>>>>>>> ab09c26d99576859fe83e942b1d74be593d50980
 ```
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Tables Structure
 
@@ -99,7 +103,7 @@ Webdev6021POEPart2/
 - **tblMessages**: User-to-user messaging system
 - **tblCart**: Database-based shopping cart
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites for operating the website
 - PHP 8.0 or higher
@@ -111,6 +115,7 @@ Webdev6021POEPart2/
 
 1. **Clone/Download the Project**
    ```bash
+<<<<<<< HEAD
    # Download from GitHub: Webdev6021POEPart2
    # Extract to your web server directory
    # For WAMP: C:\wamp64\www\Webdev6021POEPart2\
@@ -119,6 +124,15 @@ Webdev6021POEPart2/
 2. **Database Setup**
    - Open your browser and navigate to: `http://localhost/Webdev6021POEPart2/loadClothingStore.php`
    - This will automatically create the database and populate it with sample data
+=======
+   # Extract the folder to your web server directory
+   # For WAMP: C:\wamp64\www\Webdev6021POEPart2-main\
+   ```
+
+2. **Database Setup**
+   - Open your browser and navigate to: `http://localhost/Webdev6021POEPart2-main/loadClothingStore.php`
+   - This will automatically create the database and populate it with the sample data
+>>>>>>> ab09c26d99576859fe83e942b1d74be593d50980
 
 3. **Verify Installation**
    - Navigate to: `http://localhost/Webdev6021POEPart2/`
@@ -132,7 +146,7 @@ Webdev6021POEPart2/
 | Seller | johnseller | Seller123! |
 | Buyer | janebuyer | Buyer123! |
 
-## 🎨 Design Features
+## Design Features
 
 ### Color Scheme
 - **Primary**: #2C3E50 (Deep charcoal)
