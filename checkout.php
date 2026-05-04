@@ -74,9 +74,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['place_order'])) {
         try {
             // Create order
             $stmt = $db->prepareAndExecute(
-                "INSERT INTO tblOrders (buyer_id, total_amount, delivery_address, status) VALUES (?, ?, ?, 'pending')",
-                "ids",
-                [$user_id, $total, $delivery_address]
+                "INSERT INTO tblOrders (buyer_id, total_amount, delivery_address, status) VALUES (?, ?, ?, ?)",
+                "idss",
+                [$user_id, $total, $delivery_address, 'pending']
             );
             
             if (!$stmt) {

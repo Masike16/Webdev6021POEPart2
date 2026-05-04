@@ -1,0 +1,14 @@
+# Allow access to images directory
+Options +Indexes
+
+# Set proper content types for images
+AddType image/jpeg .jpg .jpeg
+AddType image/png .png
+AddType image/gif .gif
+AddType image/svg+xml .svg
+
+# Prevent hotlinking (optional)
+# RewriteEngine on
+# RewriteCond %{HTTP_REFERER} !^$
+# RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost/.*$ [NC]
+# RewriteRule \.(jpg|jpeg|png|gif)$ - [F]

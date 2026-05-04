@@ -49,7 +49,7 @@ Pastimes is a modern e-commerce platform inspired by the websites we did researc
 ## Project Structure
 
 ```
-Webdev6021POEPart2-main/
+Webdev6021POEPart2/
 ├── 📄 index.php                 # Homepage with featured products
 ├── 📄 register.php              # User registration form
 ├── 📄 login.php                 # User login
@@ -68,16 +68,24 @@ Webdev6021POEPart2-main/
 ├── 📄 add_to_cart.php           # Cart handler
 ├── 📄 DBConn.php                # Database connection class
 ├── 📄 loadClothingStore.php     # Database setup script
+├── 📄 createTable.php           # Additional table creation utility
+├── 📄 create_placeholder_images.php # Image placeholder generator
+├── 📄 debug_images.php          # Image debugging utility
+├── 📄 diagnostic.php            # Database diagnostic tool
+├── 📄 fix_image_paths.php       # Image path correction utility
+├── 📄 setup_complete.php        # Setup completion checker
+├── 📄 test_db.php               # Database connection test
+├── 📄 test_images.php           # Image testing utility
+├── 📄 userData.txt              # Sample user data
+├── 📄 myClothingStore.sql      # Complete SQL export
 ├── 📁 css/
 │   └── 📄 style.css              # Complete responsive styling
 ├── 📁 js/
 │   └── 📄 script.js              # Form validation and interactions
-├── 📁 images/                   # Product images
+├── 📁 images/                   # Product images and assets
 ├── 📁 uploads/                  # User upload directory
 ├── 📄 README.md                 # This file
-├── 📄 diagnostic.php            # Database diagnostic tool
-├── 📄 test_db.php               # Database connection test
-└── 📄 myClothingStore.sql      # Complete SQL export
+└── 📄 .git/                     # Git version control
 ```
 
 ## 🗄️ Database Schema
@@ -103,27 +111,17 @@ Webdev6021POEPart2-main/
 
 1. **Clone/Download the Project**
    ```bash
-<<<<<<< HEAD
    # Download from GitHub: Webdev6021POEPart2
    # Extract to your web server directory
-   # For WAMP: C:\wamp64\www\Webdev6021POEPart2-main\
+   # For WAMP: C:\wamp64\www\Webdev6021POEPart2\
    ```
 
 2. **Database Setup**
-   - Open your browser and navigate to: `http://localhost/Webdev6021POEPart2-main/loadClothingStore.php`
+   - Open your browser and navigate to: `http://localhost/Webdev6021POEPart2/loadClothingStore.php`
    - This will automatically create the database and populate it with sample data
-=======
-   # Extract the folder to your web server directory
-   # For WAMP: C:\wamp64\www\WebdevpastimesV4\
-   ```
-
-2. **Database Setup**
-   - Open your browser and navigate to: `http://localhost/WebdevpastimesV4/loadClothingStore.php`
-   - This will automatically create the database and populate it with the sample data
->>>>>>> 434bae7f8eefc794b48669b2e852c68d066d80b8
 
 3. **Verify Installation**
-   - Navigate to: `http://localhost/Webdev6021POEPart2-main/`
+   - Navigate to: `http://localhost/Webdev6021POEPart2/`
    - You should see the Pastimes homepage
 
 ### Default Login Credentials
@@ -165,12 +163,40 @@ Webdev6021POEPart2-main/
 
 ## References
 
+### Design & Implementation
 This project incorporates design patterns and features inspired by:
 
 - **Vinted (2023)** - UI/UX design inspiration and layout patterns
 - **Depop (2023)** - Feature set influence and user interaction design
 - **PHP.net (2022)** - Security best practices and implementation patterns
 - **W3Schools (2021)** - Technical implementation guidance
+
+### Image Sources (Harvard Referencing)
+Product images used in this project are sourced from the following retailers and manufacturers:
+
+**Champion Hoodie**
+Champion (2024) *Champion Powerblend Hoodie Full Script Logo Black*. [Online] Available at: https://www.champion.com/collections/cozy-lounger/products/champion-powerblend-hoodie-full-script-logo-black [Accessed: 4 May 2026].
+
+**Adidas Products**
+About You (2024) *Adidas Brand Collection*. [Online] Available at: https://www.aboutyou.com/brands [Accessed: 4 May 2026].
+
+**Dr. Martens Boots**
+Dr. Martens (2024) *1460 Smooth Leather Lace-Up Boots Black*. [Online] Available at: https://www.drmartens.com/us/en/1460-smooth-leather-lace-up-boots-black/p/11822006 [Accessed: 4 May 2026].
+
+**Converse Shoes**
+Converse (2024) *Chuck Taylor All Star Lift Platform Canvas Women's High Top Shoe*. [Online] Available at: https://www.converse.com/shop/p/chuck-taylor-all-star-lift-platform-canvas-womens-high-top-shoe/560845MP.html [Accessed: 4 May 2026].
+
+**Vintage Nike Items**
+eBay (2024) *Vintage Nike Collection*. [Online] Available at: https://www.ebay.com/itm/197797310607 [Accessed: 4 May 2026].
+
+**Levi's Jeans**
+eBay (2024) *Levi's Jean Collection*. [Online] Available at: https://www.ebay.com/itm/197797310607 [Accessed: 4 May 2026].
+
+**Tommy Hilfiger Shirt**
+Tommy Hilfiger (2024) *Men's Polo Shirts Collection*. [Online] Available at: https://usa.tommy.com/en/men/clothing/tops/polos [Accessed: 4 May 2026].
+
+**Ray-Ban Sunglasses**
+Ray-Ban (2024) *RB3025 Aviator Classic Arista Gold*. [Online] Available at: https://www.ray-ban.com/usa/sunglasses/RB3025aviator%20classic-arista%20gold/805289602057 [Accessed: 4 May 2026].
 
 ## Student Information
 
@@ -200,6 +226,16 @@ This project incorporates design patterns and features inspired by:
 - Error handling and validation
 - File upload capabilities
 - Database-based cart system
+
+### Development & Debugging Tools
+- **createTable.php**: Additional table creation utility for database maintenance
+- **create_placeholder_images.php**: Generates placeholder images for testing
+- **debug_images.php**: Debugging utility for image path issues
+- **diagnostic.php**: Comprehensive database diagnostic tool
+- **fix_image_paths.php**: Corrects image path references in database
+- **setup_complete.php**: Verifies complete installation setup
+- **test_db.php**: Tests database connectivity and basic operations
+- **test_images.php**: Tests image upload and display functionality
 
 ## Testing
 
@@ -243,10 +279,31 @@ This project incorporates design patterns and features inspired by:
 - Performance monitoring
 
 ### Troubleshooting
-- Check error logs for database issues
-- Verify file permissions for uploads
-- Ensure proper PHP configuration
-- Monitor server resources
+
+#### Common Issues and Solutions
+
+**Database Connection Problems**
+- Run `diagnostic.php` to check database connectivity
+- Verify MySQL server is running
+- Check DBConn.php configuration settings
+- Use `test_db.php` for basic connection testing
+
+**Image Display Issues**
+- Run `debug_images.php` to identify path problems
+- Use `fix_image_paths.php` to correct database image references
+- Verify uploads directory permissions (755)
+- Check images directory structure
+
+**Setup Verification**
+- Navigate to `setup_complete.php` to verify installation
+- Ensure all database tables exist using `createTable.php`
+- Generate test images with `create_placeholder_images.php`
+
+**General Debugging**
+- Check PHP error logs: `C:\wamp64\logs\php_error.log`
+- Verify Apache error logs: `C:\wamp64\logs\apache_error.log`
+- Ensure proper file permissions for uploads directory
+- Monitor server resources and PHP memory limits
 
 ## Support
 

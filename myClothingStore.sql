@@ -116,14 +116,14 @@ INSERT INTO tblUser (full_name, email, username, password_hash, role, is_verifie
 
 -- Insert sample clothing products
 INSERT INTO tblClothes (seller_id, product_name, description, price, brand, category, image_path, status) VALUES
-(2, 'Vintage Nike Jacket', 'Classic 90s Nike windbreaker in excellent condition. Perfect for streetwear enthusiasts.', 89.99, 'Nike', 'Jackets', 'images/nike_jacket.jpg', 'available'),
-(2, 'Levi\'s 501 Jeans', 'Authentic Levi\'s 501 vintage jeans. Great fit with minimal wear.', 65.00, 'Levi\'s', 'Pants', 'images/levis_jeans.jpg', 'available'),
-(2, 'Adidas Originals Shirt', 'Retro Adidas polo shirt in mint condition. Classic three-stripes design.', 45.50, 'Adidas', 'Shirts', 'images/adidas_shirt.jpg', 'available'),
-(4, 'Converse Chuck Taylors', 'Classic Converse high-top sneakers. Well-worn but plenty of life left.', 55.00, 'Converse', 'Shoes', 'images/converse_shoes.jpg', 'available'),
-(4, 'Vintage Ray-Ban Sunglasses', 'Authentic Ray-Ban Wayfarer sunglasses from the 80s. Original case included.', 120.00, 'Ray-Ban', 'Accessories', 'images/rayban_accessories.jpg', 'available'),
-(2, 'Tommy Hilfiger Polo', 'Classic Tommy Hilfiger polo shirt. Preppy style with iconic logo.', 38.99, 'Tommy Hilfiger', 'Shirts', 'images/tommy_shirt.jpg', 'available'),
-(4, 'Doc Martens Boots', 'Original Doc Martens boots. Scuffed but durable and stylish.', 95.00, 'Dr. Martens', 'Shoes', 'images/docmartens_shoes.jpg', 'available'),
-(2, 'Champion Hoodie', 'Vintage Champion hoodie. Comfortable and authentic streetwear.', 52.50, 'Champion', 'Shirts', 'images/champion_shirt.jpg', 'available');
+(2, 'Vintage Nike Jacket', 'Classic 90s Nike windbreaker in excellent condition. Perfect for streetwear enthusiasts.', 89.99, 'Nike', 'Jackets', 'images/jackets/Vintage_Nike_Jacket.jpg', 'available'),
+(2, 'Levi\'s 501 Jeans', 'Authentic Levi\'s 501 vintage jeans. Great fit with minimal wear.', 65.00, 'Levi\'s', 'Pants', 'images/pants/levis_501_jeans.jpg', 'available'),
+(2, 'Adidas Originals Shirt', 'Retro Adidas polo shirt in mint condition. Classic three-stripes design.', 45.50, 'Adidas', 'Shirts', 'images/shirts/Adidas_Originals_Shirt.jpg', 'available'),
+(4, 'Converse Chuck Taylors', 'Classic Converse high-top sneakers. Well-worn but plenty of life left.', 55.00, 'Converse', 'Shoes', 'images/shoes/Converse_Chuck_Taylors.jpg', 'available'),
+(4, 'Vintage Ray-Ban Sunglasses', 'Authentic Ray-Ban Wayfarer sunglasses from the 80s. Original case included.', 120.00, 'Ray-Ban', 'Accessories', 'images/accessories/Vintage_Ray-Ban_Sunglasses.jpg', 'available'),
+(2, 'Tommy Hilfiger Polo', 'Classic Tommy Hilfiger polo shirt. Preppy style with iconic logo.', 38.99, 'Tommy Hilfiger', 'Shirts', 'images/shirts/Tommy_Hilfiger_Polo.jpg', 'available'),
+(4, 'Doc Martens Boots', 'Original Doc Martens boots. Scuffed but durable and stylish.', 95.00, 'Dr. Martens', 'Shoes', 'images/shoes/Doc_Martens_Boots.jpg', 'available'),
+(2, 'Champion Hoodie', 'Vintage Champion hoodie. Comfortable and authentic streetwear.', 52.50, 'Champion', 'Shirts', 'images/shirts/Champion_Hoodie.jpg', 'available');
 
 -- Insert sample messages
 INSERT INTO tblMessages (sender_id, receiver_id, message_text, is_read) VALUES

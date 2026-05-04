@@ -1,0 +1,5 @@
+Options -Indexes
+AddType image/jpeg .jpg .jpeg
+AddType image/png .png
+AddType image/gif .gif
+AddType image/svg+xml .svg
